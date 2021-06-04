@@ -1,0 +1,39 @@
+body{
+  background-color: lightcyan;
+}
+
+#formulario{
+  width: 300px;
+  background-color: lightcyan;
+  height: 600px;
+  margin: auto;
+  border: ;
+  font-size: 20px;
+
+}
+
+.contenido{
+  text-align: left;
+}
+
+
+h1{
+  text-align: center;
+}
+
+.pre{
+margin left: 10px;
+}
+
+.txt{
+  text-align: left;
+}
+
+.transporte{
+
+  text-align: left;
+}
+
+.enviar{
+  margin-left: 25%;
+}

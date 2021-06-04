@@ -1,0 +1,175 @@
+body{
+  background-color: #31BEE3;
+}
+
+
+.fachada{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  left: 400px;
+  top: 335px;
+  border: solid 4px black;
+}
+
+.tejado{
+  width: 250px;
+  height: 70px;
+  background-color: red;
+  position: absolute;
+  left: 375px;
+  top: 260px;
+  border: solid 4px black;
+}
+
+.ventana1{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  top: 365px;
+  left: 425px;
+  border: solid 4px black;
+}
+
+.ventana2{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  top: 365px;
+  left: 515px;
+  border: solid 4px black;
+}
+.puerta{
+  width: 50px;
+  height: 70px;
+  background-color: brown;
+  position: absolute;
+  top: 465px;
+  left: 470px;
+  border: solid 4px black;
+
+}
+.chimenea{
+
+  width: 30px;
+  height: 60px;
+  background-color: brown;
+  position: absolute;
+  top: 205px;
+  left: 550px;
+  border: solid 4px black;
+}
+
+.sol{
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background-color: orange;
+  left: 1000px;
+  top: 50px;
+  border-radius: 100%;
+  animation-name: sol;
+  animation-duration: 4s;
+}
+
+.base{
+  width: 150%;
+  height: 500px;
+  background-color: #5DE177;
+  position: absolute;
+  left: 0px;
+  bottom: -54px;
+}
+
+
+.montaña1{
+  width: 600px;
+  height: 405px;
+  background-color: #193505;
+  position: absolute;
+  top: 135px;
+  left: 50px;
+  border-radius: 51% 49% 43% 57% / 100% 100% 0% 0%;
+
+
+}
+
+.montaña2{
+  width: 650px;
+  height: 550px;
+  background-color: #315827;
+  position: absolute;
+  top: 190px;
+  left: 850px;
+  border-radius: 51% 49% 43% 57% / 100% 100% 0% 0%;
+}
+
+.montaña3{
+  width: 550px;
+  height: 650px;
+  background-color: #56814B;
+  position: absolute;
+  top: 200px;
+  left: 430px;
+  border-radius: 51% 49% 43% 57% / 100% 100% 0% 0%;
+
+
+}
+
+.flor1{
+  width: 75px;
+  height: 55px;
+  position: absolute;
+  background-color: PINK;
+  border-radius:100% 0% 100% 0% / 100% 0% 100% 0% ;
+  left: 762px;
+  top: 414px;
+  transform: rotate(-10DEG);
+
+}
+
+.flor2{
+  width: 75px;
+  height: 55px;
+  position: absolute;
+  background-color: pink;
+  border-radius:0% 100% 0% 100% / 0% 100% 0% 100%;
+  left: 762px;
+  top: 414px;
+  transform: rotate(10DEG);
+
+}
+
+.hh{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-color: yellow;
+  border-radius: 50%;
+  left: 787px;
+  top: 430px;
+
+}
+
+.jj{
+  width: 10px;
+  height: 110px;
+  position: absolute;
+  background-color: green;
+
+  left: 795px;
+  top: 430px;
+
+}
+
+.flor{
+animation: rotacion 2s
+}
+
+@keyframes sol {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
